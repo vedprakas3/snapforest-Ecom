@@ -1,8 +1,13 @@
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Footer from "../components/Footer";
+
 export default function Home() {
   return (
-    <main style={{ padding: "40px" }}>
-      <h1>🔥 Snapforest</h1>
-      <p>Premium Ecommerce Platform</p>
-    </main>
+    <>
+      <Navbar />
+      <Hero />
+      <Footer />
+    </>
   );
 }
