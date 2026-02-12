@@ -1,25 +1,30 @@
 export default function Hero() {
   return (
-    <section style={hero}>
-      <h1>Discover Premium Fashion</h1>
-      <p>Upgrade your style with Snapforest</p>
-      <button style={btn}>Shop Now</button>
-    </section>
+    <div style={{
+      padding: "80px 20px",
+      textAlign: "center",
+      background: "linear-gradient(to right, #111, #333)",
+      color: "white"
+    }}>
+      <h1 style={{ fontSize: "42px", marginBottom: "20px" }}>
+        Discover Premium Trends
+      </h1>
+
+      <p style={{ opacity: 0.8 }}>
+        India’s next generation ecommerce platform
+      </p>
+
+      <button style={{
+        marginTop: "30px",
+        padding: "12px 25px",
+        background: "#ff4d4d",
+        border: "none",
+        color: "white",
+        borderRadius: "6px",
+        cursor: "pointer"
+      }}>
+        Shop Now
+      </button>
+    </div>
   );
 }
-
-const hero = {
-  textAlign: "center",
-  padding: "80px 20px",
-  background: "linear-gradient(to right, #111, #333)",
-  color: "white",
-};
-
-const btn = {
-  marginTop: "20px",
-  padding: "12px 25px",
-  background: "white",
-  border: "none",
-  cursor: "pointer",
-  fontWeight: "bold",
-};
