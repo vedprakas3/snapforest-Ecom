@@ -1,31 +1,19 @@
 export default function Navbar() {
   return (
-    <nav style={navStyle}>
-      <div style={logo}>🔥 Snapforest</div>
-      <div style={menu}>
+    <div style={{
+      display: "flex",
+      justifyContent: "space-between",
+      padding: "20px 40px",
+      background: "white",
+      boxShadow: "0 2px 10px rgba(0,0,0,0.05)"
+    }}>
+      <h2>🔥 Snapforest</h2>
+
+      <div style={{ display: "flex", gap: "20px" }}>
+        <span>Home</span>
         <span>Shop</span>
-        <span>Categories</span>
         <span>Cart</span>
-        <span>Login</span>
       </div>
-    </nav>
+    </div>
   );
 }
-
-const navStyle = {
-  display: "flex",
-  justifyContent: "space-between",
-  padding: "20px 40px",
-  background: "white",
-  boxShadow: "0 2px 10px rgba(0,0,0,0.05)",
-};
-
-const logo = {
-  fontWeight: "bold",
-  fontSize: "20px",
-};
-
-const menu = {
-  display: "flex",
-  gap: "20px",
-};
