@@ -1,4 +1,4 @@
-import "./globals.css";
+import "../styles/globals.css";
 
 export const metadata = {
   title: "Snapforest",
@@ -7,8 +7,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html>
+      <body>
+        {children}
+      </body>
     </html>
   );
 }
