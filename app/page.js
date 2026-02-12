@@ -5,7 +5,7 @@ export default function Home() {
       id: 1,
       name: "Wireless Earbuds",
       price: 1499,
-      image: "https://images.unsplash.com/photo-1585386959984-a41552262b8c"
+      image: image: "https://images.unsplash.com/photo-1518441902110-42d7d6d6e8f2?auto=format&fit=crop&w=800&q=80"
     },
     {
       id: 2,
