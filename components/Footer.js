@@ -1,15 +1,12 @@
 export default function Footer() {
   return (
-    <footer style={footer}>
-      <p>© 2026 Snapforest. All rights reserved.</p>
-    </footer>
+    <div style={{
+      textAlign: "center",
+      padding: "30px",
+      background: "#111",
+      color: "white"
+    }}>
+      © 2026 Snapforest. All rights reserved.
+    </div>
   );
 }
-
-const footer = {
-  padding: "30px",
-  textAlign: "center",
-  background: "#111",
-  color: "white",
-  marginTop: "50px",
-};
