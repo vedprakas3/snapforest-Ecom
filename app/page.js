@@ -1,3 +1,5 @@
+import "./globals.css";
+
 export default function Home() {
   const products = [
     {
@@ -48,4 +50,4 @@ export default function Home() {
       </section>
     </main>
   );
-}
+  }
